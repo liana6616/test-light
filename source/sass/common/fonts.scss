@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/Roboto-Regular.woff2") format("woff2"), url("/fonts/Roboto-Regular.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Korataki";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/Korataki-Regular.woff2") format("woff2"), url("/fonts/Korataki-Regular.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/Inter-Regular.woff2") format("woff2"), url("/fonts/Inter-Regular.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lato";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/Lato-Regular.woff2") format("woff2"), url("/fonts/Lato-Regular.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lato";
+  font-weight: 600;
+  font-style: normal;
+  src: url("/fonts/Lato-Semibold.woff2") format("woff2"), url("/fonts/Lato-Semibold.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lato";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/Lato-Bold.woff2") format("woff2"), url("/fonts/Lato-Bold.woff") format("woff");
+  font-display: swap;
+}

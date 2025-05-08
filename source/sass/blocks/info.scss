@@ -1,0 +1,58 @@
+.info {
+  display: none;
+
+  @media (min-width: $min-width-desktop) {
+    display: block;
+    margin: 0;
+    margin: 0;
+    background: $base-dark;
+  }
+}
+
+.info__list {
+  display: flex;
+  width: $min-width-desktop;
+  margin: 0 auto;
+  padding: 0;
+
+  @media (min-width: $min-width-desktop) {
+    display: flex;
+    justify-content: flex-end;
+    gap: 70px;
+    padding: 12px 180px;
+
+    button {
+      padding: 0;
+      color: $base-light;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+  }
+
+  @media (min-width: $min-width-desktop-max) {
+    gap: 70px;
+    width: $min-width-desktop-max;
+    padding: 12px 260px;
+  }
+}
+
+.info__item {
+  list-style: none;
+
+  a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.0;
+    color: $base-light;
+  }
+
+  @media (min-width: $min-width-desktop) {
+    a {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.0;
+      text-decoration: none;
+    }
+  }
+}
