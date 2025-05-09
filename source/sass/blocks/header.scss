@@ -56,7 +56,7 @@
     width: 21px;
     height: 21px;
     margin: 0;
-    mask-image: url("../__spritemap#sprite-search-view");
+    mask-image: url("/__spritemap#sprite-search-view");
     mask-repeat: no-repeat;
     background-color: $base-light;
   }
@@ -151,7 +151,7 @@
       width: 32px;
       height: 32px;
       margin: 0;
-      mask-image: url("../__spritemap#sprite-shop-view");
+      mask-image: url("/__spritemap#sprite-shop-view");
       mask-repeat: no-repeat;
       background-color: $base-light;
     }

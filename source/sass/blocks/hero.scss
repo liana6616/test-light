@@ -33,7 +33,8 @@
   color: $base-light;
   border-radius: 100px;
   border: none;
-
+  text-decoration: none;
+  
   @media (min-width: $min-width-tablet) {
     left: 31px;
     padding: 13px 86.5px;
